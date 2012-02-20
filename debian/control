@@ -7,5 +7,5 @@ Standards-Version: 3.7.3
 
 Package: redmine1.2
 Architecture: all
-Depends: ruby
+Depends: ruby, rubygems, ruby-pg, ruby1.8-dev
 Description: redmine 1.2
