@@ -1,0 +1,11 @@
+Source: redmine1.2
+Section: apps
+Priority: optional
+Maintainer: Jan Matejka <yac@blesmrt.net>
+Build-Depends: git-svn
+Standards-Version: 3.7.3
+
+Package: redmine1.2
+Architecture: all
+Depends: ruby
+Description: redmine 1.2
