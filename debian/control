@@ -2,10 +2,10 @@ Source: redmine1.2
 Section: apps
 Priority: optional
 Maintainer: Jan Matejka <yac@blesmrt.net>
-Build-Depends:
+Build-Depends: ruby, rubygems, ruby1.8-dev
 Standards-Version: 3.7.3
 
 Package: redmine1.2
 Architecture: all
-Depends: ruby, rubygems, ruby-pg, ruby1.8-dev
+Depends: ruby, ruby-pg
 Description: redmine 1.2

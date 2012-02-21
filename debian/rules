@@ -9,9 +9,10 @@ configure:
 
 build:
 	dh_testdir
-	bin/fetch.sh
 
-	touch $@
+	mkdir build
+	bin/fetch.sh
+	bin/build_gems.sh
 
 clean:
 	dh_testdir

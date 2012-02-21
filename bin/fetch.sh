@@ -17,7 +17,6 @@ fetch_website() {
 }
 
 main() {
-	mkdir build
 	cd build
 	fetch_cache || fetch_website
 	tar -zxf $archive
