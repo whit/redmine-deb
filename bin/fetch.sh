@@ -3,7 +3,7 @@
 set -x
 set -eu
 
-archive=redmine-1.2.2.tar.gz
+archive=redmine-2.0.2.tar.gz
 
 fetch_cache() {
 	CACHE_DIR=${CACHE_DIR:-$HOME/redmine-dev-cache}
@@ -12,7 +12,7 @@ fetch_cache() {
 }
 
 fetch_website() {
-	url=http://rubyforge.org/frs/download.php/75518/$archive
+	url=http://rubyforge.org/frs/download.php/76189/$archive
 	wget $url
 }
 

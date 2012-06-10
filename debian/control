@@ -1,11 +1,11 @@
-Source: redmine1.2
+Source: redmine-bundle
 Section: apps
 Priority: optional
 Maintainer: Jan Matejka <yac@blesmrt.net>
 Build-Depends: ruby, rubygems, ruby1.8-dev
 Standards-Version: 3.7.3
 
-Package: redmine1.2
+Package: redmine-bundle
 Architecture: all
 Depends: ruby, ruby-pg, rubygems1.8
-Description: redmine 1.2
+Description: redmine 2 bundled with gems

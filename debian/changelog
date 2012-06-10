@@ -1,5 +1,5 @@
-redmine1.2 (0.1) unstable; urgency=low
+redmine-bundle (2.0.2-0) unstable; urgency=low
 
-  * Initial release.
+  * Initial bundled Redmine 2.0.2
 
- -- Jan Matejka <yac@blesmrt.net>  Wed, 08 Feb 2012 22:03:56 +0100
+ -- Vitek Pliska <whit@jizak.cz>  Wed, 08 Feb 2012 22:03:56 +0100
