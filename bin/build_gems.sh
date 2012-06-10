@@ -15,7 +15,7 @@ main() {
 
 	gem install -i $GEM_PATH --no-ri --no-rdoc bundler
 
-	$GEM_PATH/bin/bundle install --gemfile=./redmine-2.0.2/Gemfile --path=$GEM_PATH --without development test mysql sqlite rmagick postgresql
+	$GEM_PATH/bin/bundle install --gemfile=./redmine-2.0.2/Gemfile --path=$GEM_PATH --without development test mysql sqlite rmagick postgresql json
 
 #	gem_install rails 3.2.5
 #	gem_install i18n 0.4.2
