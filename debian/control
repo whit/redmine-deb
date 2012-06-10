@@ -7,6 +7,6 @@ Standards-Version: 3.7.3
 
 Package: redmine-bundle
 Architecture: all
-Depends: ruby, ruby-pg, rubygems1.8, ruby-json
+Depends: ruby, ruby-pg, rubygems1.8, ruby-multi-json
 Suggests: ruby-pg, ruby-sqlite3, ruby-mysql, ruby-rmagick 
 Description: redmine 2 bundled with gems
