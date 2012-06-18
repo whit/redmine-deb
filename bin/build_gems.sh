@@ -3,10 +3,6 @@
 set -x
 set -eu
 
-gem_install() {
-	gem install -i $GEM_PATH --no-ri --no-rdoc $1 -v $2
-}
-
 main() {
 	cd build
 	mkdir gems

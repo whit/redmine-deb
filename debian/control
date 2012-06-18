@@ -1,12 +1,18 @@
 Source: redmine-bundle
 Section: apps
 Priority: optional
-Maintainer: Jan Matejka <yac@blesmrt.net>
+Maintainer: Vitek Pliska <whit@jizak.cz>
 Build-Depends: ruby, rubygems, ruby1.8-dev
 Standards-Version: 3.7.3
 
 Package: redmine-bundle
 Architecture: all
-Depends: ruby, ruby-pg, rubygems1.8
-Suggests: ruby-pg, ruby-sqlite3, ruby-mysql, ruby-rmagick 
+Replaces: redmine
+Depends: ruby, rubygems1.8
+Suggests: redmine-bundle-conf, ruby-pg, ruby-sqlite3, ruby-mysql, ruby-rmagick
 Description: redmine 2 bundled with gems
+
+Package: redmine-bundle-conf
+Architecture: all
+Depends: redmine-bundle, ruby-pg, nginx-full
+Description: Example configuration for redmine-bundle, postgresql, nginx...
